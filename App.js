@@ -7,7 +7,7 @@ export default function App() {
   const [location, setLocation] = useState();
   const [address, setAddress] = useState();
 
-  Location.setGoogleApiKey("AIzaSyD5GUOMMrDY5Ml8JOQ5j7z7p9f8GaGCDBg");
+  Location.setGoogleApiKey("your-api-key");
 
   useEffect(() => {
     const getPermissions = async () => {
